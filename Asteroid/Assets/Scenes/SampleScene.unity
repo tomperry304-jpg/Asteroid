@@ -386,10 +386,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16b08407d2fcba44bb80bdfd9b8509fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardThrust: 7
-  maxSpeed: 7
-  rotationSpeed: 7
-  maxRotation: 7
+  forwardThrust: 2
+  backwardThrust: 1
+  lateralThrust: 0.75
+  maxSpeed: 5
+  velocityDeceleration: 0.99
+  rotationBurst: 1
+  rotationAcceleration: 15
+  maxRotation: 10
+  radialDeceleration: 0.95
 --- !u!50 &1275575220
 Rigidbody2D:
   serializedVersion: 5
